@@ -6,7 +6,7 @@ const port = 3000
 app.use(express.urlencoded({ extended: false }))
 
 app.listen(port, () => {
-    console.log(`servidor inicializado en http://localhost:${port}`)
+    console.log(`server running on http://localhost:${port}`)
 })
 
 
